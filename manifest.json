@@ -1,0 +1,11 @@
+{
+    "id": "tidy-tasks",
+    "name": "Tidy Tasks",
+    "version": "0.1.0",
+    "minAppVersion": "0.15.0",
+    "description": "Automatically clean up repeating tasks when they recur.",
+    "author": "Matthew Gromer",
+    "authorUrl": "https://github.com/", 
+    "fundingUrl": "",
+    "isDesktopOnly": false
+}
