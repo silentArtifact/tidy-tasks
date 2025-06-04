@@ -2,6 +2,8 @@
 
 This plugin works alongside the [Tasks plugin](https://github.com/obsidian-tasks-group/obsidian-tasks) to keep your task lists clean. It removes completed repeating tasks after they have been recreated by the Tasks plugin.
 
+Use the **Tidy Completed Tasks** command to scan your vault and delete any completed repeating tasks.
+
 ## Development
 
 This project follows the structure of the [Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin). To get started:
