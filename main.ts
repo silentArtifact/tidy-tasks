@@ -45,7 +45,7 @@ export default class TidyTasksPlugin extends Plugin {
         await this.loadSettings();
 
         const ribbonIconEl = this.addRibbonIcon('checkmark', 'Tidy Tasks', (evt: MouseEvent) => {
-            new Notice('Tidy Tasks active');
+            this.tidyCompletedTasks();
         });
         ribbonIconEl.addClass('tidy-tasks-ribbon');
 
