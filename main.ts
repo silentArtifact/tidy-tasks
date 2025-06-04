@@ -22,6 +22,7 @@ export default class TidyTasksPlugin extends Plugin {
 
         for (const file of files) {
             const content = await this.app.vault.read(file);
+            const newline = content.includes('\r\n') ? '\r\n' : '\n';
             const lines = content.split(/\r?\n/);
             const newLines: string[] = [];
 
@@ -34,7 +35,7 @@ export default class TidyTasksPlugin extends Plugin {
             }
 
             if (newLines.length !== lines.length) {
-                await this.app.vault.modify(file, newLines.join('\n'));
+                await this.app.vault.modify(file, newLines.join(newline));
             }
         }
 
