@@ -11,8 +11,9 @@ This project follows the structure of the [Obsidian Sample Plugin](https://githu
 1. Install NodeJS (v16 or newer).
 2. Run `npm install` to install dependencies.
 3. Run `npm run dev` to build the plugin in watch mode.
-4. Copy `main.js`, `styles.css` and `manifest.json` into your vault's `.obsidian/plugins/tidy-tasks/` folder.
-5. Enable the plugin in Obsidian.
+4. Run `npm test` to verify the project builds correctly.
+5. Copy `main.js`, `styles.css` and `manifest.json` into your vault's `.obsidian/plugins/tidy-tasks/` folder.
+6. Enable the plugin in Obsidian.
 
 ## Building for release
 
